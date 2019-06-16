@@ -33,7 +33,7 @@ def search_in_db(site_name, title):
 
     connection = pymysql.connect(host='127.0.0.1',
                                 user='nikben',
-                                password='08112001Nek',
+                                password='1234567',
                                 db='news_parser',
                                 charset='utf8mb4',
                                 cursorclass=pymysql.cursors.DictCursor)
